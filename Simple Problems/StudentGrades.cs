@@ -4,11 +4,6 @@ using System.Linq;
 
 namespace GradeProblem
 {
-    // Problem: Create a Grade Calculator
-    // 1. Store student names and grades.
-    // 2. add a method to Calculate Average.
-    // 3. add a method to determine Letter Grade (A, B, C, D, F).
-
     public class Student
     {
         public string Name { get; set; }
@@ -53,11 +48,6 @@ namespace GradeProblem
     {
         static void Main(string[] args)
         {
-            /* 
-               Simple demonstration of the Student class.
-               You can expand this to accept user input.
-            */
-            
             Student student = new Student("Alice");
             student.AddGrade(85);
             student.AddGrade(92);
@@ -66,11 +56,6 @@ namespace GradeProblem
             Console.WriteLine($"Student: {student.Name}");
             Console.WriteLine($"Average: {student.CalculateAverage():F2}");
             Console.WriteLine($"Letter Grade: {student.GetLetterGrade()}");
-            
-            // Expected Output:
-            // Student: Alice
-            // Average: 85.00
-            // Letter Grade: B
             
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
