@@ -72,4 +72,15 @@ class Program
 		// Print timeline markers
 		foreach (var p in processes)
 		{
+			Console.Write($"|  P{p.Id}  ");
+		}
+		Console.WriteLine("|");
+		// Print time markers
+		foreach (var p in processes)
+		{
+			Console.Write($"{p.Start,3}     ");
+		}
+		Console.WriteLine(processes.Count > 0 ? $"{processes[processes.Count - 1].Completion,3}" : "0");
+	}
+}
 
