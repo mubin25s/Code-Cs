@@ -2,9 +2,9 @@ using System;
 
 namespace SimpleProblem
 {
-    class Program
+    public static class SimpleArrayLoopRunner
     {
-        static void Main(string[] args)
+        public static void Run()
         {
             string[] items = { "Apple", "Banana", "Cherry", "Date", "Elderberry" };
 

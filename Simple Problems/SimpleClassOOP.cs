@@ -1,20 +1,29 @@
 // SimpleClassOOP.cs
-Person person1 = new Person("Sachcha", 24);
-person1.Introduce();
-
-class Person
+namespace SimpleProblems
 {
-    public string Name { get; set; }
-    public int Age { get; set; }
-
-    public Person(string name, int age)
+    public static class SimpleClassOOP
     {
-        Name = name;
-        Age = age;
+        public static void Run()
+        {
+            Person person1 = new Person("Sachcha", 24);
+            person1.Introduce();
+        }
     }
 
-    public void Introduce()
+    public class Person
     {
-        Console.WriteLine($"Hi, I'm {Name} and I am {Age} years old.");
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+
+        public void Introduce()
+        {
+            Console.WriteLine($"Hi, I'm {Name} and I am {Age} years old.");
+        }
     }
 }

@@ -44,9 +44,9 @@ namespace GradeProblem
         }
     }
 
-    class Program
+    public static class StudentGradesRunner
     {
-        static void Main(string[] args)
+        public static void Run()
         {
             Student student = new Student("Alice");
             student.AddGrade(85);
@@ -56,9 +56,6 @@ namespace GradeProblem
             Console.WriteLine($"Student: {student.Name}");
             Console.WriteLine($"Average: {student.CalculateAverage():F2}");
             Console.WriteLine($"Letter Grade: {student.GetLetterGrade()}");
-            
-            Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey();
         }
     }
 }

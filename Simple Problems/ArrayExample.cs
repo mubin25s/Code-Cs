@@ -1,13 +1,22 @@
 // ArrayExample.cs
-string[] fruits = { "Apple", "Banana", "Cherry", "Date" };
-
-Console.WriteLine($"Total fruits: {fruits.Length}");
-Console.WriteLine("Fruits list:");
-
-foreach (string fruit in fruits)
+namespace SimpleProblems
 {
-    Console.WriteLine($"- {fruit}");
-}
+    public static class ArrayExample
+    {
+        public static void Run()
+        {
+            string[] fruits = { "Apple", "Banana", "Cherry", "Date" };
 
-fruits[1] = "Blueberry";
-Console.WriteLine($"\nUpdated second fruit: {fruits[1]}");
+            Console.WriteLine($"Total fruits: {fruits.Length}");
+            Console.WriteLine("Fruits list:");
+
+            foreach (string fruit in fruits)
+            {
+                Console.WriteLine($"- {fruit}");
+            }
+
+            fruits[1] = "Blueberry";
+            Console.WriteLine($"\nUpdated second fruit: {fruits[1]}");
+        }
+    }
+}
