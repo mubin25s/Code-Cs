@@ -5,7 +5,7 @@ namespace SimpleProblems
     {
         public static void Run()
         {
-            int score 85;
+            int score = 85;
 
             if (score >= 90)
             {
