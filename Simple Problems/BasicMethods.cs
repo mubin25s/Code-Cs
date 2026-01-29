@@ -12,13 +12,4 @@ namespace SimpleProblems
         }
 
         private static int AddNumbers(int num1, int num2)
-        {
-            return num1 + num2;
-        }
-
-        private static void PrintMessage(string message)
-        {
-            Console.WriteLine(message);
-        }
-    }
-}
+     
