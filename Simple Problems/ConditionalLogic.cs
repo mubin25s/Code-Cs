@@ -17,7 +17,7 @@ namespace SimpleProblems
             }
             else if (score >= 70)
             {
-                Console.WrieLine("Grade: C");
+                Console.WriteLine("Grade: C");
             }
             else
             {
