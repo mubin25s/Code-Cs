@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\C#.csproj": {}
+    "D:\\Programming Languages\\C#\\C#.csproj": {}
   },
   "projects": {
-    "D:\\C#\\C#.csproj": {
+    "D:\\Programming Languages\\C#\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\C#.csproj",
+        "projectUniqueName": "D:\\Programming Languages\\C#\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "D:\\C#\\C#.csproj",
+        "projectPath": "D:\\Programming Languages\\C#\\C#.csproj",
         "packagesPath": "C:\\Users\\ROWTECH\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\obj\\",
+        "outputPath": "D:\\Programming Languages\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ROWTECH\\AppData\\Roaming\\NuGet\\NuGet.Config"
