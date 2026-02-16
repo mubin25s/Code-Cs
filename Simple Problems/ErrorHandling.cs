@@ -20,7 +20,7 @@ namespace SimpleProblems
             {
                 Console.WriteLine($"An unexpected error occurred: {ex.Message}");
             }
-            f
+            finally
             {
                 Console.WriteLine("Execution of block completed.");
             }
