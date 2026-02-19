@@ -12,7 +12,7 @@ namespace SimpleProblems
 
             foreach (string fruit in fruits)
             {
-                Console.WriteLine($"- {fruit}");
+                Con.WriteLine($"- {fruit}");
             }
 
             fruits[1] = "Blueberry";
