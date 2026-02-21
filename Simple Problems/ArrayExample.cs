@@ -11,7 +11,7 @@ namespace SimpleProblems
             Console.WriteLine("Fruits list:");
 
             foreach (string fruit in fruits)
-    
+            {
                 Console.WriteLine($"- {fruit}");
             }
 
