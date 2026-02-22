@@ -12,7 +12,6 @@ namespace SimpleProblems
 		public int Completion;
 		public int Waiting => Start - Arrival;
 		public int Turnaround => Completion - Arrival;
-	}
 
 	public static class FCFS
 	{
