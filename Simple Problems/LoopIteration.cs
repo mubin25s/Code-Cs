@@ -10,7 +10,6 @@ namespace SimpleProblems
             {
                 Console.WriteLine($"Iteration {i}");
             }
-
             Console.WriteLine("\nWhile Loop (5 down to 1):");
             int count = 5;
             while (count > 0)
