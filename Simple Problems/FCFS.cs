@@ -5,7 +5,7 @@ namespace SimpleProblems
 {
 	public class Process
 	{
-		public int Id;
+		public int Id; 
 		public int Arrival;
 		public int Burst;
 		public int Start;
